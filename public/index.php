@@ -1,5 +1,21 @@
 <?php
-include_once ‘header.php‘;
+include_once ‘public/header.php‘;
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php include_once ‘public/footer.php‘; ?>
 
