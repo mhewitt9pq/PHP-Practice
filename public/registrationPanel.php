@@ -10,19 +10,21 @@ include_once 'header.php';
             <h1>Stationary Application</h1>
             <p1>Welcome to this fictional stationary application page created for COMP2001 example. To continue, please accept our terms and conditions.</p1><br>
 
-            <form method="post">
+            <form action="welcome.php" method="post">
                 <label for="name">Name: </label>
-                <input type="text" name="name"><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="hnum">House number: </label>
+                <input type="text" id="hnum" name="hnum" required><br>
 
                 <label for="postcode">Postcode: </label>
-                <input type="text" name="postcode"><br>
+                <input type="text" id="postcode" name="postcode" required><br>
 
                 <label for="email">Email: </label>
-                <input type="text" name="email"><br>
-
-
+                <input type="text" id="email" name="email"><br>
 
                 <input type="submit" value="Submit">
+
             </form>
         </div>
     </div>
