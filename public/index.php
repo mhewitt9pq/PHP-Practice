@@ -10,7 +10,7 @@ include_once 'header.php';
                 <h1>Stationary Application</h1>
                 <p1>Welcome to this fictional stationary application page created for COMP2001 example. To continue, please accept our terms and conditions.</p1><br>
 
-                <form>
+                <form action="agreement.php" method="get">
                     <input type="radio" id="I agree" name="agreement" value="I agree">
                     <label for="I agree">I agree</label><br>
                     <input type="radio" id="I disagree" name="agreement" value="I disagree">
